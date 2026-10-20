@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon link -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    
+    <!-- SEO Meta Tags -->
+    <title>What Colors Make Blue? The Complete Color Mixing Guide</title>
+    <meta name="description" content="Discover what colors make blue, how to mix various shades from royal to navy blue, and understand traditional vs modern subtractive color theory.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "What Colors Make Blue? The Complete Color Theory and Mixing Guide",
+      "image": "logo.png",
+      "author": {
+        "@type": "Organization",
+        "name": "Paintrove",
+        "url": "https://paintrove.com"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Paintrove",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "logo.png"
+        }
+      }
+    }
+    </script>
+
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --accent: #2563eb;
+            --accent-hover: #1d4ed8;
+            --dark: #0f172a;
+            --text-main: #334155;
+            --text-heading: #0f172a;
+            --bg-page: #f8fafc;
+            --white: #ffffff;
+            --border: #e2e8f0;
+            --callout-bg: #eff6ff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: var(--text-main);
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        /* --- Header Section --- */
+        header {
+            background-color: var(--white);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 14px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .brand-logo img {
+            max-height: 42px;
+            width: auto;
+            display: block;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 24px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #475569;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        /* --- Editorial Layout --- */
+        .wrapper {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        article {
+            background: var(--white);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 48px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.03);
+        }
+
+        .article-meta {
+            font-size: 0.88rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2.35rem;
+            color: var(--text-heading);
+            line-height: 1.28;
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
+        }
+
+        h2 {
+            font-size: 1.55rem;
+            color: var(--text-heading);
+            margin: 36px 0 16px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f1f5f9;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: var(--text-heading);
+            margin: 22px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Contextual Backlink Anchor Styling */
+        a.target-link {
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        a.target-link:hover {
+            color: var(--accent-hover);
+        }
+
+        /* Quick Answer Callout */
+        .quick-summary {
+            background: var(--callout-bg);
+            border-left: 5px solid var(--accent);
+            padding: 24px;
+            border-radius: 6px;
+            margin: 28px 0;
+        }
+
+        .quick-summary strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        /* Color Recipe Table */
+        .table-container {
+            overflow-x: auto;
+            margin: 26px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px 16px;
+            border: 1px solid var(--border);
+        }
+
+        th {
+            background-color: #f8fafc;
+            color: var(--text-heading);
+            font-weight: 600;
+        }
+
+        /* FAQ Card Block */
+        .faq-block {
+            background-color: #f8fafc;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 18px;
+        }
+
+        .faq-block h4 {
+            color: var(--text-heading);
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+
+        ul {
+            margin: 15px 0 20px 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* --- Footer --- */
+        footer {
+            background-color: var(--dark);
+            color: #94a3b8;
+            padding: 55px 20px 28px 20px;
+            margin-top: 70px;
+        }
+
+        .footer-grid {
+            max-width: 1140px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .footer-grid h4 {
+            color: var(--white);
+            margin-bottom: 16px;
+            font-size: 1.1rem;
+        }
+
+        .footer-grid ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .footer-grid li {
+            margin-bottom: 10px;
+        }
+
+        .footer-grid a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-grid a:hover {
+            color: var(--white);
+        }
+
+        .footer-bottom {
+            max-width: 1140px;
+            margin: 40px auto 0 auto;
+            padding-top: 20px;
+            border-top: 1px solid #1e293b;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            article {
+                padding: 24px;
+            }
+            .header-container {
+                flex-direction: column;
+                gap: 12px;
+            }
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section with Relative Logo -->
+    <header>
+        <div class="header-container">
+            <a href="https://paintrove.com" class="brand-logo">
+                <img src="logo.png" alt="Paintrove Official Logo">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="https://paintrove.com">Home</a></li>
+                    <li><a href="https://paintrove.com/services">Services</a></li>
+                    <li><a href="https://paintrove.com/paints">Color Guides</a></li>
+                    <li><a href="https://paintrove.com/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Article Body (~1000 Words) -->
+    <div class="wrapper">
+        <article>
+            <div class="article-meta">Color Theory &amp; Paint Guides</div>
+            <h1>What Colors Make Blue? The Ultimate Artist &amp; Painter Mixing Guide</h1>
+
+            <p>
+                Color mixing is one of the most intriguing aspects of visual arts, interior design, and graphic illustration. Yet, when artists, painters, and DIY home decorators ask <a href="https://paintrove.com/what-colors-make-blue/" class="target-link" rel="dofollow">what colors make blue</a>, they are frequently met with contradictory answers. Some traditional art teachers insist that blue cannot be made at all because it is a pure primary color, while digital printers and modern color scientists will tell you that mixing cyan and magenta yields a rich, authentic blue.
+            </p>
+
+            <!-- Quick Answer Summary Box -->
+            <div class="quick-summary">
+                <strong>Quick Answer: Can You Mix Blue?</strong>
+                <p style="margin: 0;">
+                    In traditional painter color theory (RYB), <strong>pure blue is a primary color</strong> and cannot be created by mixing other base pigments. However, in modern subtractive color theory (CMYK), combining <strong>Cyan and Magenta</strong> produces true primary blue. Furthermore, you can create dozens of custom blue shades, tints, and tones by blending existing blues with white, black, green, or violet.
+                </p>
+            </div>
+
+            <h2>Understanding Primary Colors: RYB vs. CMYK</h2>
+            <p>
+                To understand why creating blue seems confusing, one must look at the difference between historical painting models and modern optical color science.
+            </p>
+            <p>
+                For centuries, classical fine artists utilized the <strong>RYB (Red, Yellow, Blue)</strong> color wheel. Under this paradigm, primary colors were considered indivisible foundational blocks from which all secondary and tertiary colors derived. Because blue was categorized as a fundamental primary pigment, standard art curricula taught that you must buy blue straight from the paint tube rather than mixing it on your palette.
+            </p>
+            <p>
+                However, modern pigment technology and subtractive color theory—known as <strong>CMYK (Cyan, Magenta, Yellow, and Key/Black)</strong>—uncovered that the historical primaries were actually close approximations. Cyan is a pure, greenish-blue that absorbs red light, while magenta absorbs green light. When you blend equal parts of pure cyan and pure magenta pigment, green and red wavelengths are absorbed, leaving your eyes to perceive radiant, true blue.
+            </p>
+
+            <h2>How to Make True Blue Using Modern Primaries</h2>
+            <p>
+                If you are working with high-pigment acrylics, oils, or gouache formulated according to modern subtractive primaries (Process Cyan and Process Magenta), you can mix pure blue right on your mixing board:
+            </p>
+            <ul>
+                <li><strong>Start with Process Cyan:</strong> Place a moderate amount of cyan on your palette. Because cyan carries cooler, high-luminosity properties, it acts as the primary base.</li>
+                <li><strong>Gradually Introduce Process Magenta:</strong> Add small increments of magenta using a palette knife. Magenta removes the green undertones present in cyan.</li>
+                <li><strong>Balance the Ratio:</strong> A roughly 1:1 ratio yields a deep, vibrant royal blue. Adjusting with slightly more cyan produces cerulean hues, whereas more magenta pulls the tone toward ultramarine and indigo.</li>
+            </ul>
+
+            <h2>Mixing Recipes: Creating Distinct Shades and Tints of Blue</h2>
+            <p>
+                Even when starting with a standard blue paint (such as Phthalo Blue or Ultramarine), artists often need to create diverse moods, atmospheric depths, and architectural palettes. Here is how professional painters formulate customized variations:
+            </p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Target Shade</th>
+                            <th>Base Color</th>
+                            <th>Secondary Addition</th>
+                            <th>Resulting Character</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Navy Blue</strong></td>
+                            <td>True Blue</td>
+                            <td>Touch of Black or Burnt Umber</td>
+                            <td>Deep, formal, sophisticated</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Sky / Baby Blue</strong></td>
+                            <td>Ultramarine Blue</td>
+                            <td>Titanium White</td>
+                            <td>High-value, luminous tint</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Teal &amp; Turquoise</strong></td>
+                            <td>Cyan or Cobalt</td>
+                            <td>Cadmium Yellow + White</td>
+                            <td>Vibrant, warm, tropical</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Midnight Blue</strong></td>
+                            <td>Phthalo Blue</td>
+                            <td>Dioxazine Purple + Ivory Black</td>
+                            <td>Moody, intense, almost black</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Steel / Slate Blue</strong></td>
+                            <td>Cobalt Blue</td>
+                            <td>Neutral Gray or Raw Umber</td>
+                            <td>Muted, industrial, earthy</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h2>Warm Blues vs. Cool Blues: Why Temperature Matters</h2>
+            <p>
+                Not all blues behave identically when mixed into other paints. Understanding color bias is the key to preventing muddy results in your artwork or room design:
+            </p>
+            <p>
+                <strong>Warm Blues (Red Leaning):</strong> Ultramarine and French Ultramarine contain subtle red undertones. When mixed with yellow to make green, warm blues often result in olive or drab brownish greens due to the presence of all three primary colors. However, they create breathtaking purples when mixed with red.
+            </p>
+            <p>
+                <strong>Cool Blues (Green/Yellow Leaning):</strong> Phthalo Blue, Cerulean, and Prussian Blue lean toward green. They possess zero red pigments, making them the superior choice when your objective is to create crisp, electric greens, tropical aquas, and radiant skies.
+            </p>
+
+            <h2>Tips for Professional Surface Painters and Decorators</h2>
+            <p>
+                If you are mixing wall paints or architectural finishes, keep the following golden rules in mind:
+            </p>
+            <ul>
+                <li><strong>Always Add Darker Pigment to Lighter:</strong> Dark colors rapidly overpower light pigments. If you are tinting blue with white to achieve pastel hues, start with white paint and introduce blue drop by drop.</li>
+                <li><strong>Account for Dry Shift:</strong> Acrylic paints and latex emulsions darken slightly as they dry (known as dry shift). Always evaluate your custom blue test swatch on a dry board under natural daylight.</li>
+                <li><strong>Document Your Ratios:</strong> When formulating a custom shade for interior spaces, measure your mixing ratios carefully to guarantee consistency if you run short on paint.</li>
+            </ul>
+
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-block">
+                <h4>Can I make blue from red and yellow?</h4>
+                <p>No. Mixing red and yellow yields orange. In subtractive color mechanics, combining warm primaries cannot generate cool blue spectrums.</p>
+            </div>
+
+            <div class="faq-block">
+                <h4>What two colors can I mix if I run out of blue paint?</h4>
+                <p>If you possess Process Cyan and Process Magenta, mixing them in equal parts will create true blue. If you only own traditional red, yellow, and black paints, you cannot mix pure blue from scratch.</p>
+            </div>
+
+            <div class="faq-block">
+                <h4>How do you make blue darker without using black?</h4>
+                <p>Black paint can occasionally make blue look dull and muddy. To darken blue while preserving richness, mix in a tiny touch of Burnt Umber or a deep violet pigment.</p>
+            </div>
+
+            <h2>Final Conclusion</h2>
+            <p>
+                While traditional art classes taught that blue was an untouchable base element, modern color science proves that understanding both subtractive and additive color systems gives you complete creative mastery over your palette. By grasping the relationship between cyan, magenta, and classical undertones, you can mix whatever blue your project demands with total confidence.
+            </p>
+        </article>
+    </div>
+
+    <!-- Paintrove Style Dark Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>About Paintrove</h4>
+                <p>
+                    Paintrove provides comprehensive painting solutions, authoritative color guides, and precision tools for homeowners, interior designers, and professional painting contractors.
+                </p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="https://paintrove.com">Home</a></li>
+                    <li><a href="https://paintrove.com/what-colors-make-blue/">What Colors Make Blue</a></li>
+                    <li><a href="https://paintrove.com/services">Our Services</a></li>
+                    <li><a href="https://paintrove.com/privacy-policy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact &amp; Hours</h4>
+                <ul>
+                    <li>Email: support@paintrove.com</li>
+                    <li>Mon – Sat: 7:00 AM – 7:00 PM</li>
+                    <li>Sunday: Closed</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Paintrove. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
